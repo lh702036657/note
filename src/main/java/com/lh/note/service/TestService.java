@@ -11,5 +11,8 @@ import javax.servlet.http.HttpServletResponse;
  */
 public interface TestService extends IService<Payment> {
 
+    /**
+     * 测试导出Excel
+     */
     void export(HttpServletResponse response);
 }
